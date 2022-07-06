@@ -1,0 +1,807 @@
+@charset "utf-8";
+/* CSS Document */
+/*******GOOGLE_FONT************/
+
+@font-face {
+    font-family: 'poppinsblack';
+    src: url('../fonts/poppins-black-webfont.eot');
+    src: url('../fonts/poppins-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-black-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-black-webfont.woff') format('woff'),
+         url('../fonts/poppins-black-webfont.ttf') format('truetype'),
+         url('../fonts/poppins-black-webfont.svg#poppinsblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('../fonts/poppins-bold-webfont.eot');
+    src: url('../fonts/poppins-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-bold-webfont.woff') format('woff'),
+         url('../fonts/poppins-bold-webfont.ttf') format('truetype'),
+         url('../fonts/poppins-bold-webfont.svg#poppinsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsextrabold';
+    src: url('../fonts/poppins-extrabold-webfont.eot');
+    src: url('../fonts/poppins-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-extrabold-webfont.woff') format('woff'),
+         url('../fonts/poppins-extrabold-webfont.ttf') format('truetype'),
+         url('../fonts/poppins-extrabold-webfont.svg#poppinsextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsextralight';
+    src: url('../fonts/poppins-extralight-webfont.eot');
+    src: url('../fonts/poppins-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-extralight-webfont.woff') format('woff'),
+         url('../fonts/poppins-extralight-webfont.ttf') format('truetype'),
+         url('../fonts/poppins-extralight-webfont.svg#poppinsextralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinslight';
+    src: url('../fonts/poppins-light-webfont.eot');
+    src: url('../fonts/poppins-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-light-webfont.woff') format('woff'),
+         url('../fonts/poppins-light-webfont.ttf') format('truetype'),
+         url('../fonts/poppins-light-webfont.svg#poppinslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('../fonts/poppins-medium-webfont.eot');
+    src: url('../fonts/poppins-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-medium-webfont.woff') format('woff'),
+         url('../fonts/poppins-medium-webfont.ttf') format('truetype'),
+         url('../fonts/poppins-medium-webfont.svg#poppinsmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../fonts/poppins-regular-webfont.eot');
+    src: url('../fonts/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-regular-webfont.woff') format('woff'),
+         url('../fonts/poppins-regular-webfont.ttf') format('truetype'),
+         url('../fonts/poppins-regular-webfont.svg#poppinsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinssemibold';
+    src: url('../fonts/poppins-semibold-webfont.eot');
+    src: url('../fonts/poppins-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-semibold-webfont.woff') format('woff'),
+         url('../fonts/poppins-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/poppins-semibold-webfont.svg#poppinssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsthin';
+    src: url('../fonts/poppins-thin-webfont.eot');
+    src: url('../fonts/poppins-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-thin-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-thin-webfont.woff') format('woff'),
+         url('../fonts/poppins-thin-webfont.ttf') format('truetype'),
+         url('../fonts/poppins-thin-webfont.svg#poppinsthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dm_sansbold';
+    src: url('../fonts/dmsans-bold-webfont.eot');
+    src: url('../fonts/dmsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dmsans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/dmsans-bold-webfont.woff') format('woff'),
+         url('../fonts/dmsans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/dmsans-bold-webfont.svg#dm_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dm_sansmedium';
+    src: url('../fonts/dmsans-medium-webfont.eot');
+    src: url('../fonts/dmsans-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dmsans-medium-webfont.woff2') format('woff2'),
+         url('../fonts/dmsans-medium-webfont.woff') format('woff'),
+         url('../fonts/dmsans-medium-webfont.ttf') format('truetype'),
+         url('../fonts/dmsans-medium-webfont.svg#dm_sansmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dm_sansregular';
+    src: url('../fonts/dmsans-regular-webfont.eot');
+    src: url('../fonts/dmsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dmsans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/dmsans-regular-webfont.woff') format('woff'),
+         url('../fonts/dmsans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/dmsans-regular-webfont.svg#dm_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	color: #000;
+  	font-family: 'poppinsregular' !important;
+	font-size: 14px;
+	/*font-weight: 400 !important;*/
+    overflow-x: hidden;
+}
+html * {
+	outline:none;
+}
+ol, ul, li {
+	list-style: none;
+	margin:0px;
+	padding:0px;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration:none;
+}
+a:hover, a:focus{
+	text-decoration:none !important;
+	outline:none !important;	
+}
+outline {
+	border:0;
+}
+.lft {
+	float:left;
+}
+.rgt {
+	float:right;
+}
+.clear {
+	clear:both;
+	line-height:0;
+	font-size:0;
+}
+a, input, textarea {
+	transition:0.5s all ease-in-out;
+	-moz-transition:0.5s all ease-in-out;
+	-webkit-transition:0.5s all ease-in-out;
+}
+img {
+	max-width:100%;
+	height:auto;
+}
+h1,h2,h3,h4,h5,h6,p{
+	padding:0;
+	margin:0;	
+}
+/***********HOME-PAGE-CSS-start************/
+
+.row.header_area {
+    background: #482351;
+    padding: 15px 0;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 6px 0;
+}
+.menu li a {
+    color: #fff;
+    font-size: 16px;
+    padding: 0 0 0 38px;
+}
+.logo_area img {
+    width: 110px;
+}
+.row.banner_area img {
+    width: 100%;
+    height: 756px;
+    overflow: ;
+    object-fit: cover;
+}
+.row.banner_area {
+    position: relative;
+}
+.banner_text {
+    position: absolute;
+    top: 38%;
+    left: 0;
+    right: 0;
+}
+.main_cont h2 {
+    font-size: 38px;
+    color: #fff;
+    margin: 0 0 8px;
+    font-family: 'poppinsbold';
+}
+.main_cont p {
+    font-size: 22px;
+    color: #fff;
+    font-family: 'poppinsmedium';
+    margin: 0 0 20px;
+}
+.main_cont a {
+    background: #73487d;
+    display: inline-block;
+    color: #fff;
+    padding: 15px 52px;
+    font-size: 17px;
+    border-radius: 4px;
+}
+.main_cont a:hover {
+    color: #fff;
+}
+.row.about_area {
+    padding: 70px 0;
+}
+.abot_rit img {
+    width: 100%;
+    height: 478px;
+    object-fit: cover;
+}
+.abot_lft h4 {
+    margin: 94px 0 30px;
+    font-size: 27px;
+    font-family: 'poppinssemibold';
+    line-height: 39px;
+}
+.abot_lft a {
+    font-size: 15px;
+    background: #482351;
+    color: #fff;
+    padding: 18px 44px;
+    display: inline-block;
+    border-radius: 4px;
+}
+.abot_lft a:hover {
+    color: #fff;
+}
+.row.project_area {
+    background: #f6f6f4;
+    padding: 70px 0;
+}
+.heading h3 {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #73bfbc;
+    font-family: 'poppinsmedium';
+    margin: 0 0 0;
+}
+.heading {
+    margin: 0 0 45px;
+    text-align: center;
+}
+.main_proj_area {
+    background: #fff;
+    border-radius: 4px;
+    transition: ease-in-out 0.4s;
+}
+.main_proj_area:hover {
+    box-shadow: 0 16px 10px -4px #ccc;
+    transition: ease-in-out 0.4s;
+}
+.top_proj img {
+    width: 100%;
+    height: 207px;
+    object-fit: cover;
+    border-radius: 4px 4px 0 0;
+}
+.btm_proj {
+    padding: 15px 20px;
+}
+.btm_proj h3 {
+    margin: 5px 0 13px;
+    font-size: 20px;
+    color: #482351;
+    font-family: 'poppinssemibold';
+}
+.btm_proj p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
+.proj_btom {
+    text-align: center;
+    margin: 63px 0 0;
+}
+.proj_btom a {
+    background: #482351;
+    font-size: 17px;
+    color: #fff;
+    padding: 19px 60px;
+    border-radius: 4px;
+}
+.proj_btom a:hover {
+    color: #fff;
+}
+
+.row.publictn_area {
+    background: #fff;
+    padding: 70px 0;
+}
+.row.publictn_area .main_proj_area {
+    background: #f8f8f8;
+}
+.row.footer_area {
+    background: #dfe9e2;
+    padding: 70px 0 8px;
+}
+.foot_fst img {
+    width: 150px;
+    margin: 0 0 25px;
+}
+.foot_fst p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #000;
+    font-family: 'dm_sansregular';
+}
+.foot_midd ul li a {
+    padding: 0 0 11px;
+    display: block;
+    font-size: 15px;
+    font-family: 'dm_sansregular';
+    color: #000;
+}
+.foot_midd {
+    padding: 59px 0 0;
+}
+.social_area h3 {
+    font-size: 20px;
+    margin: 0 0 15px;
+    font-family: 'dm_sansbold';
+    color: #482351;
+}
+.social_area ul li a {
+    background: #482351;
+    color: #fff;
+    width: 35px;
+    display: block;
+    height: 35px;
+    justify-content: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.social_area ul {
+    display: flex;
+    justify-content: flex-start;
+}
+.social_area ul li {
+    margin: 0 8px 0 0;
+}
+.getintuch_area {
+    margin: 28px 0 0;
+}
+.getintuch_area h3 {
+    font-size: 20px;
+    margin: 0 0 15px;
+    font-family: 'dm_sansbold';
+    color: #482351;
+}
+.getintuch_area ul li a {
+    color: #000;
+    padding: 0 0 8px;
+    display: block;
+}
+.getintuch_area ul li a i {
+    color: #482351;
+    padding: 0 8px 0 0;
+}
+.copy_right {
+    text-align: center;
+    border-top: 1px solid #d2d2d2;
+    margin: 18px 0 0;
+    padding: 21px 0 0;
+}
+.copy_right p {
+    color: #a1a1a1;
+    font-size: 15px;
+}
+.row.about_area_inner {
+    padding: 70px 0;
+}
+.abot_innrlft h3 {
+    color: #73bfbc;
+    font-size: 28px;
+    font-family: 'poppinsmedium';
+    margin: 0 0 13px;
+}
+.abot_innrlft h4 {
+    margin: 0 0 9px;
+    font-size: 21px;
+    font-family: 'poppinsmedium';
+    line-height: 32px;
+}
+.abserv_img {
+    background: #482351;
+    width: 138px;
+    height: 138px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    padding: 31px;
+    margin: 28px auto 30px;
+}
+.abut_main_proj_area {
+    background: #fff;
+    text-align: center;
+    height: 422px;
+}
+.row.helpcrt_area {
+    padding: 80px 0;
+}
+.helpcrt_area_right img {
+    width: 458px;
+    height: 458px;
+    border-radius: 100%;
+}
+.helpcrt_area_left h3 {
+    color: #73bfbc;
+    margin: 0 0 13px;
+    font-family: 'poppinssemibold';
+    font-size: 23px;
+}
+.helpcrt_area_left p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #000;
+}
+.helpcrt_area_left {
+    padding: 138px 0 0 0;
+}
+.row.whtmks_diffrnt {
+    background: #f6f6f4;
+    padding: 70px 0;
+}
+.whtmks_diffrnt_all h3 {
+    color: #73bfbc;
+    margin: 0 0 16px;
+    font-size: 23px;
+    font-family: 'poppinsmedium';
+}
+.whtmks_diffrnt_all p {
+    font-size: 17px;
+    line-height: 30px;
+    font-family: 'poppinsmedium';
+}
+.whtmks_diffrnt_all p span {
+    font-family: 'poppinsbold';
+}
+.meetteam_proj_area {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 40px 30px;
+}
+.top_meetteam {
+    text-align: center;
+}
+.testm_text {
+    text-align: center;
+}
+.btm_meetteam p {
+    font-size: 15px;
+    line-height: 28px;
+    margin: 0;
+}
+.testm_text h3 {
+    color: #482351;
+    font-size: 20px;
+    margin: 27px 0 0;
+    font-family: 'poppinsbold';
+}
+.testm_text h4 {
+    color: #5d5d5d;
+    font-family: 'poppinsmedium';
+    margin: 6px 0 24px;
+    font-size: 17px;
+}
+.linkdin_area {
+    border-top: 1px solid #ccc;
+    margin: 26px 0 0;
+    padding: 17px 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.linkdin_area i {
+    font-size: 23px;
+    color: #482351;
+    margin: 0 9px 0 0;
+}
+.linkdin_area a {
+    color: #482351;
+}
+.row.meetteam_area {
+    padding: 70px 0 0;
+}
+.meetteam_area2 {
+    padding: 50px 0 70px !important;
+}
+.top_meetteam2 img {
+    width: 200px;
+}
+.row.impact_area {
+    background: #f6f6f4;
+    padding: 70px 0;
+}
+.impct_sing {
+    background: #fff;
+    height: 215px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 6px;
+}
+.impct_sing h2 {
+    font-size: 50px;
+    color: #482351;
+    font-family: 'poppinsbold';
+}
+.single_projects_inn {
+    background: #f6f6f4;
+    padding: 35px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: 0 12px 8px -5px #eaeaea;
+    margin: 0 0 35px;
+}
+.row.projects_area_inn {
+    padding: 70px 0;
+}
+.single_projects_inn_left img {
+    border-radius: 6px;
+    width: 100%;
+}
+.single_projects_inn_left {
+    width: 35%;
+}
+.single_projects_inn_right {
+    width: 80%;
+    margin: 0 0 0 26px;
+}
+.top_projt h3 {
+    color: #482351;
+    font-size: 21px;
+    font-family: 'poppinsbold';
+    margin: 0 0 12px;
+}
+.top_projt p {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0;
+}
+.top_projt {
+    height: 203px;
+}
+.bott_projt ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bott_projt ul li {
+    padding: 0 27px 0 0;
+}
+.bott_projt {
+    border-top: 1px solid #e1e1e1;
+    padding: 20px 0 0;
+}
+.bott_projt ul li p {
+    font-size: 16px;
+    color: #000;
+    margin: 0;
+}
+.bott_projt ul li p span {
+    font-family: 'poppinssemibold';
+    color: #482351;
+    padding: 0 0 0 3px;
+}
+.bott_projt ul li p span a {
+    color: #482351;
+}
+.bott_projt ul li p span a:hover {
+    text-decoration: underline !important;
+}
+.single_publications_inn_left {
+    width: 25%;
+}
+.bott_publict ul li p {
+    font-size: 15px;
+}
+.top_publict {
+    height: inherit;
+}
+.bott_publict {
+    padding: 13px 0 0;
+    margin: 30px 0 0;
+}
+.top_publict h3 {
+    font-size: 18px;
+}
+.top_publict h3 a {
+    color: #482351;
+}
+.top_publict h3 a:hover {
+    color: #482351;
+    text-decoration: underline !important;
+}
+.publicat_filter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.select-style {
+    padding: 0 15px;
+}
+.publicat_filter {
+    margin: 0 0 60px;
+}
+.select-style select {
+    width: 200px;
+    height: 45px;
+    padding: 0 12px;
+    background: #f6f6f4;
+    border: 1px solid #f6f6f4;
+    border-radius: 4px;
+    color: #000;
+}
+.row.brodcm_menu p {
+    margin: 0 0 0;
+    padding: 50px 0 0;
+    font-size: 15px;
+}
+.row.brodcm_menu p a {
+    color: #482351;
+}
+.row.brodcm_menu p a:hover {
+    color: #482351;
+    text-decoration: underline !important;
+}
+.public_detls_inn {
+    background: inherit;
+    box-shadow: none;
+    padding: 30px 0;
+}
+.top_publict_details h3 {
+    font-size: 29px;
+    line-height: 39px;
+    margin: 27px 0 0;
+}
+.publdtls_area_inn {
+    padding: 15px 0 0 !important;
+}
+.main_details_content_inn h3 {
+    background: #f6f6f6;
+    padding: 15px 20px;
+    border-radius: 6px;
+    margin: 28px 0 23px;
+    font-size: 20px;
+    color: #000;
+    font-family: 'poppinsbold';
+}
+.main_details_content_inn p {
+    font-size: 15px;
+    line-height: 26px;
+    color: #000;
+    margin: 0 0 21px;
+}
+.row.main_details_contnt {
+    padding: 0 0 50px;
+}
+.row.contact_page_area {
+    padding: 70px 0;
+}
+.contact_area_left P {
+    font-size: 19px;
+    color: #000;
+    line-height: 30px;
+    margin: 0 0 14px;
+}
+.contact_area_left ul {
+    display: flex;
+    justify-content: flex-start;
+    margin: 22px 0 0;
+}
+.contact_area_left ul li a {
+    font-size: 22px;
+    padding: 0 22px 0 0;
+    color: #482351;
+}
+.contact_area_right form label {
+    display: block;
+    width: 100%;
+    font-weight: normal;
+    color: #000;
+    font-size: 16px;
+    margin: 0 0 14px;
+}
+.contact_area_right form input {
+    width: 100%;
+    height: 56px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 0 20px;
+    padding: 0 12px;
+    color: #000;
+}
+.contact_area_right form textarea {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 0 20px;
+    padding: 15px 12px;
+    color: #000;
+}
+.contact_area_right form input[type="submit"] {
+    width: 160px;
+    background: #482351;
+    color: #fff;
+    font-size: 17px;
+    border: 0;
+}
+.cls_sidemenu {
+    display: none;
+}
