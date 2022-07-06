@@ -7,10 +7,10 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Sama</title>
 	
-    
+    <!--main_css-->
     <link href="<?php bloginfo('template_directory'); ?>/css/style.css" rel="stylesheet" type="text/css">
     
-    
+    <!-- Bootstrap -->
     <link href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css" rel="stylesheet">
       
     <!--responsive_css-->
@@ -30,7 +30,7 @@
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 <?php wp_head(); ?>
   </head>
   <body>
